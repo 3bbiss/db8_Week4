@@ -1,0 +1,15 @@
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\bin\Debug\net6.0\ListOfObjects.exe
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\bin\Debug\net6.0\ListOfObjects.deps.json
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\bin\Debug\net6.0\ListOfObjects.runtimeconfig.json
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\bin\Debug\net6.0\ListOfObjects.dll
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\bin\Debug\net6.0\ListOfObjects.pdb
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\obj\Debug\net6.0\ListOfObjects.csproj.AssemblyReference.cache
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\obj\Debug\net6.0\ListOfObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\obj\Debug\net6.0\ListOfObjects.AssemblyInfoInputs.cache
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\obj\Debug\net6.0\ListOfObjects.AssemblyInfo.cs
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\obj\Debug\net6.0\ListOfObjects.csproj.CoreCompileInputs.cache
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\obj\Debug\net6.0\ListOfObjects.dll
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\obj\Debug\net6.0\refint\ListOfObjects.dll
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\obj\Debug\net6.0\ListOfObjects.pdb
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\obj\Debug\net6.0\ListOfObjects.genruntimeconfig.cache
+C:\Users\aabbiss\coding\DevBuild\Week4\ListOfObjects\obj\Debug\net6.0\ref\ListOfObjects.dll

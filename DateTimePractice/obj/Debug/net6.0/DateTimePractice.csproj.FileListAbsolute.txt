@@ -1,0 +1,15 @@
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\bin\Debug\net6.0\DateTimePractice.exe
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\bin\Debug\net6.0\DateTimePractice.deps.json
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\bin\Debug\net6.0\DateTimePractice.runtimeconfig.json
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\bin\Debug\net6.0\DateTimePractice.dll
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\bin\Debug\net6.0\DateTimePractice.pdb
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\obj\Debug\net6.0\DateTimePractice.csproj.AssemblyReference.cache
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\obj\Debug\net6.0\DateTimePractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\obj\Debug\net6.0\DateTimePractice.AssemblyInfoInputs.cache
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\obj\Debug\net6.0\DateTimePractice.AssemblyInfo.cs
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\obj\Debug\net6.0\DateTimePractice.csproj.CoreCompileInputs.cache
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\obj\Debug\net6.0\DateTimePractice.dll
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\obj\Debug\net6.0\refint\DateTimePractice.dll
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\obj\Debug\net6.0\DateTimePractice.pdb
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\obj\Debug\net6.0\DateTimePractice.genruntimeconfig.cache
+C:\Users\aabbiss\coding\DevBuild\Week4\DateTimePractice\obj\Debug\net6.0\ref\DateTimePractice.dll
