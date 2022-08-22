@@ -47,8 +47,13 @@ class Rectangle
         height = _height;
     }
 
+    //public override string ToString()
+    //{
+    //    return $"{name}: {length} X {height},   Area = {length * height}";
+    //}
+
     public override string ToString()
     {
-        return $"{name}: {length} X {height},   Area = {length * height}";
+        return base.ToString();
     }
 }
