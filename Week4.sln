@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimePractice", "DateTimePractice\DateTimePractice.csproj", "{466E6ED9-F3F6-460F-83DA-30366ED8280A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimePractice", "DateTimePractice\DateTimePractice.csproj", "{466E6ED9-F3F6-460F-83DA-30366ED8280A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListInitConstruct", "ListInitConstruct\ListInitConstruct.csproj", "{849160B4-86BC-4577-9B65-E49DB66251D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListInitConstruct", "ListInitConstruct\ListInitConstruct.csproj", "{849160B4-86BC-4577-9B65-E49DB66251D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListInitConstruct2", "ListInitConstruct2\ListInitConstruct2.csproj", "{4E0ADF68-1550-4DF0-8AB2-5A7908B2036C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListInitConstruct2", "ListInitConstruct2\ListInitConstruct2.csproj", "{4E0ADF68-1550-4DF0-8AB2-5A7908B2036C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListOfObjects", "ListOfObjects\ListOfObjects.csproj", "{9B81D954-5447-40A8-B37F-ECB6EA76EBC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListOfObjects", "ListOfObjects\ListOfObjects.csproj", "{9B81D954-5447-40A8-B37F-ECB6EA76EBC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mammals", "Mammals\Mammals.csproj", "{2D1436F1-9982-4896-A8CE-06ABD478A222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mammals", "Mammals\Mammals.csproj", "{2D1436F1-9982-4896-A8CE-06ABD478A222}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicles", "Vehicles\Vehicles.csproj", "{9A6804F2-BE7E-4B9F-863D-0137705CA5A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicles", "Vehicles\Vehicles.csproj", "{9A6804F2-BE7E-4B9F-863D-0137705CA5A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPG", "RPG\RPG.csproj", "{E597D32F-92EA-496E-8754-691D908FD594}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaApp", "MediaApp\MediaApp.csproj", "{A6893C3B-BD4A-4AA4-AA8F-2532392B0F94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars", "Cars\Cars.csproj", "{DC4DAA03-3F58-4448-B9F9-96FDFAF12B3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scratch", "scratch\scratch.csproj", "{D2B5E417-8F6A-4325-9778-124C98C0A45F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{9A6804F2-BE7E-4B9F-863D-0137705CA5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A6804F2-BE7E-4B9F-863D-0137705CA5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A6804F2-BE7E-4B9F-863D-0137705CA5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E597D32F-92EA-496E-8754-691D908FD594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E597D32F-92EA-496E-8754-691D908FD594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E597D32F-92EA-496E-8754-691D908FD594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E597D32F-92EA-496E-8754-691D908FD594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6893C3B-BD4A-4AA4-AA8F-2532392B0F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6893C3B-BD4A-4AA4-AA8F-2532392B0F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6893C3B-BD4A-4AA4-AA8F-2532392B0F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6893C3B-BD4A-4AA4-AA8F-2532392B0F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4DAA03-3F58-4448-B9F9-96FDFAF12B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4DAA03-3F58-4448-B9F9-96FDFAF12B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4DAA03-3F58-4448-B9F9-96FDFAF12B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4DAA03-3F58-4448-B9F9-96FDFAF12B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B5E417-8F6A-4325-9778-124C98C0A45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B5E417-8F6A-4325-9778-124C98C0A45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B5E417-8F6A-4325-9778-124C98C0A45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B5E417-8F6A-4325-9778-124C98C0A45F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
