@@ -18,7 +18,6 @@ do
 } while (goAgain[0] == 'y');
 
 
-
 static void Init(List<Car> _cars)
 {
     _cars.Add(new Car("Ford", "Explorer", 2022, 39999.99m));

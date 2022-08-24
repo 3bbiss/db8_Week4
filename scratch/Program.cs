@@ -1,95 +1,51 @@
 ﻿
 
-List<Car> cars = new List<Car>();
-Init(cars);
-showCars(cars);
+Rectangle r1 = new Rectangle(10.5m, 3.6m);
+Console.WriteLine(r1);
 
-Console.Write("Select listing #: ");
-string entry = Console.ReadLine();
-int listing = int.Parse(entry);
+// Let's change height to a negative number.
 
-Console.WriteLine($"\nYou selected:\n {cars[listing - 1]}");
-Buy(cars, listing);
+r1.height = -5;
 
-Console.WriteLine();
-
-showCars(cars);
+Console.WriteLine(r1.height);
 
 
-
-
-
-
-
-
-static void Init(List<Car> _cars)
+class Rectangle
 {
-    _cars.Add(new Car("Ford", "Explorer", 2022, 39999.99m));
-    _cars.Add(new Car("Tesla", "Model 3", 2022, 77777.77m));
-    _cars.Add(new Car("IDK", "Bugatti", 2021, 1000000.00m));
+    // length with shortcut
+    public decimal length { get; set; }
 
-    _cars.Add(new Used("Chevy", "Camaro", 2019, 48499.99m, 23000.9));
-    _cars.Add(new Used("Ferarri", "Spyder", 2015, 200000.99m, 12000.50));
-    _cars.Add(new Used("GM", "Denali", 2012, 23499.99m, 65942.23));
-}
+    private decimal pHeight;
 
-static void showCars(List<Car> _cars)
-{
-
-    for (int i = 0; i < _cars.Count; i++)
+    // validation with height: Verify height > 0. Can't use shortcut
+    public decimal height
     {
-        Console.WriteLine($"Car listing # {i + 1}: {_cars[i]}\n");
+
+        get
+        {
+            return pHeight;
+        }
+        set  //   set included a parameter 'value' automatically.. keyword paramater. takes input.
+        {
+            if (value > 0)
+            {
+                pHeight = value;
+            }
+            else
+            {
+                pHeight = 1;
+            }
+        }
     }
-}
 
-static void Buy(List<Car> _cars, int _listing)
-{
-    Console.Write("\nDo you want to buy the car? (y/n): ");
-    string res = Console.ReadLine().ToLower();
-
-    if (res == "y")
+    public Rectangle(decimal _length, decimal _height)
     {
-        _cars.RemoveAt(_listing - 1);    // buy - aka delete
-    }
-    else
-    {
-        Console.WriteLine("Thanks for coming, come again!");
-    }
-}
-
-
-class Car
-{
-    public string make;
-    public string model;
-    public int year;
-    public decimal price;
-
-
-    public Car(string _make, string _model, int _year, decimal _price)
-    {
-        make = _make;
-        model = _model;
-        year = _year;
-        price = _price;
+        length = _length;
+        height = _height;
     }
 
     public override string ToString()
     {
-        return $"\nMake: {make}\nModel: {model}\nYear: {year}\nPrice: ${price}";
-    }
-}
-
-class Used : Car
-{
-    double mileage;
-    public Used(string _make, string _model, int _year, decimal _price, double _mileage) : base(_make, _model, _year, _price)
-    {
-        mileage = _mileage;
-    }
-
-    public override string ToString()
-    {
-        return $"\n(USED) Make: {make}\nModel: {model}\nYear: {year}\nPrice: ${price} -- with {mileage} miles";
+        return $"{length} {height} Area: {length * height}";
     }
 }
