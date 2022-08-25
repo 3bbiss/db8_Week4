@@ -6,7 +6,6 @@ Init(cars);
 do
 {
     showCars(cars);
-
     Console.Write("Select listing #: ");
     int listing = int.Parse(Console.ReadLine());
 
